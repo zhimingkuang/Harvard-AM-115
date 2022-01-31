@@ -4,6 +4,7 @@ This Git repository contains example codes from the course Applied Math 115 Math
 ## Modules
 
 - [Population (single species, deterministic, Part 1)](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/01_population_single_1)
+- [Numerics](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/02_numerics)
 
 ## Run code
 
@@ -29,5 +30,5 @@ This Git repository contains example codes from the course Applied Math 115 Math
 
 - [Install Git](https://www.atlassian.com/git/tutorials/install-git)
 - [Git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf) (You will mostly only be using `git pull` to retrieve updated files)
-- [Install Jupyter using Anaconda and conda](https://docs.jupyter.org/en/latest/install/notebook-classic.html#installing-jupyter-using-anaconda-and-conda) (The straightforward way)
-- [Install Jupyter with pip](https://docs.jupyter.org/en/latest/install/notebook-classic.html#alternative-for-experienced-python-users-installing-jupyter-with-pip) (If you already have Python3 installed)
+- [Install Jupyter using Anaconda and conda](https://docs.jupyter.org/en/latest/install/notebook-classic.html#installing-jupyter-using-anaconda-and-conda) (The straightforward way, but your libraries are installed in `conda` environment)
+- [Install Jupyter with pip](https://docs.jupyter.org/en/latest/install/notebook-classic.html#alternative-for-experienced-python-users-installing-jupyter-with-pip) (If you already have Python3 installed and do not want to deal with additional `conda` enviroment)
