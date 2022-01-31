@@ -8,7 +8,7 @@
 
 `balancing_stick.ipynb`, `balancing_stick.m`
 
-This example calculates the numerical solution to the simple pendulum (rod+bob) equation.
+This example calculates the numerical solution to the balancing stick problem (modelled as a single pendulum).
 
 `euler_method.ipynb`, `euler_method.m`
 
