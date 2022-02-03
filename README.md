@@ -6,6 +6,7 @@ This Git repository contains example codes from the course Applied Math 115 Math
 - [Population (single species, deterministic, Part 1)](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/01_population_single_1)
 - [Numerics](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/02_numerics)
 - [Population (single species, deterministic, Part 2)](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/03_population_single_2)
+- [Population (single species, probabilistic)](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/04_population_single_3)
 
 ## Run code
 
