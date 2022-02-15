@@ -9,6 +9,7 @@ This Git repository contains example codes from the course Applied Math 115 Math
 - [Population (single species, probabilistic)](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/04_population_single_3)
 - [Model fitting (brief intro)](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/05_model_fitting)
 - [Population (multiple species)](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/06_population_multiple)
+- [Models of an epidemic](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/07_epidemic)
 
 ## Run code
 
