@@ -11,6 +11,7 @@ This Git repository contains example codes from the course Applied Math 115 Math
 - [Population (multiple species)](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/06_population_multiple)
 - [Models of an epidemic](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/07_epidemic)
 - [Monte Carlo](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/08_monte_carlo)
+- [Queuing model](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/09_queuing)
 
 ## Run code
 
