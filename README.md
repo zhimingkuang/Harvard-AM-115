@@ -13,6 +13,7 @@ This Git repository contains example codes from the course Applied Math 115 Math
 - [Monte Carlo](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/08_monte_carlo)
 - [Queuing model](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/09_queuing)
 - [Markov chain](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/10_markov_chain)
+- [Diffusion](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/11_diffusion)
 
 ## Run code
 
