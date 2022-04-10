@@ -18,6 +18,7 @@ This Git repository contains example codes from the course Applied Math 115 Math
 - [Traffic](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/13_traffic)
 - [Optimization](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/14_optimization)
 - [Graph theory](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/15_graph_theory)
+- [Optimal control](https://github.com/zhimingkuang/Harvard-AM-115/tree/main/16_optimal_control)
 
 ## Run code
 
