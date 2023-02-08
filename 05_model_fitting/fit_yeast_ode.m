@@ -8,7 +8,7 @@ close all;clear all;
 datapath='./';
 
 %read in the data from the Carlson 1913 paper
-Table=readtable([datapath 'carlson_yeast_data.xls']);
+Table=readtable([datapath 'carlson_yeast_data.csv']);
 time=Table.Hours;
 amount=Table.Amount;
 
@@ -21,7 +21,8 @@ amount=amount(2:end);
 %Nonlinear curve fit. Use the default option, which is unweighted least squares
 beta0=[1;1]; %initial guess of the parameters r and K. 
              %We have normalized the parameters so they are of order 1
-[beta,R,J,CovB,MSE] = nlinfit(time,amount,@ode45_logistic,beta0);
+%[beta,R,J,CovB,MSE] = nlinfit(time,amount,@ode45_logistic,beta0);
+[beta,R,J,CovB,MSE] = nlinfit(time,amount,@analytical_logistic,beta0);
 %Outputs: 
 %beta is the estimated optimal values for the parameters
 %R is the residual, 
@@ -30,7 +31,8 @@ beta0=[1;1]; %initial guess of the parameters r and K.
 %MSE is the mean-squared-error
 
 %plot the fitted model and compare with data
-yfit=ode45_logistic(beta,time);
+%yfit=ode45_logistic(beta,time);
+yfit=analytical_logistic(beta,time);
 figure(1)
 clf
 plot(time,amount,'o');
@@ -101,7 +103,8 @@ pause
 
 %--------Extra note----------------------------------------------
 %Our dataset is quite small, and it is probably better to use
-%the Lilliefors test, designed for small datasets disp('A more quantitative way with lillietest')
+%the Lilliefors test, designed for small datasets 
+%disp('A more quantitative way with lillietest')
 %[hNorm,pNorm] = lillietest(R)
 %Lilliefors, H. W. “On the Kolmogorov-Smirnov test for normality with mean and variance unknown.” 
 %Journal of the American Statistical Association. Vol. 62, 1967, pp. 399–402.lillietest is designed for small datasets. 
@@ -152,7 +155,24 @@ corr(J)
 
 %-------------------------------------------------
 %define the curve to be fitted as 
-%a function of parameters and indepenent variable 
+%a function of parameters and independent variable 
+%The following uses the analytical solution.
+%-------------------------------------------------
+function yfit=analytical_logistic(beta,t)
+%unpack parameters
+y0=9.6;     %initial yeast population, assumed to be known to simplify the plots
+r=beta(1)*0.5;      %growth rate, normalized so beta is of order 1
+K=beta(2)*600;      %carrying capacity, normalized so beta is of order 1
+t0=0;    %initial time
+
+%use analytical solution
+yfit=K ./ (1 + ((K-y0)/y0).*exp(-r.*t));
+end
+
+%-------------------------------------------------
+%define the curve to be fitted as 
+%a function of parameters and independent variable 
+%The following uses the numerical solution
 %-------------------------------------------------
 function yfit=ode45_logistic(beta,t)
 %unpack parameters
