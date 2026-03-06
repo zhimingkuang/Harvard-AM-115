@@ -6,7 +6,7 @@
 
 MATLAB helper functions to model Google's PageRank. Run `pagerank_demo.m` to start.
 
-`model_epidemic_1d.ipynb`
+`surfer_pagerank_demo.ipynb`
 
 This example models Google's PageRank.
 
