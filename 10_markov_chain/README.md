@@ -13,3 +13,11 @@ This example models Google's PageRank.
 `queuing_markov.ipynb`, `queuing_markov.m`
 
 This example uses Markov chain to model the queuing problem.
+
+`estimateMarkovChain.m`, `estimateMarkovChain.ipynb`, `weather_markov_sequence.txt`
+
+This example estimates a Markov chain from data.
+
+`decode.ipynb`
+
+This example models cryptography.
