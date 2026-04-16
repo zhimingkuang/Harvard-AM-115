@@ -1,6 +1,6 @@
 # Harvard Applied Math/Engineering Science 115
 
-Open these files in Matlab Online (requires login) [https://link-url-here.org](https://matlab.mathworks.com/open/fileexchange/v1?id=183682)
+Open these files in Matlab Online (requires login) [https://matlab.mathworks.com/open/fileexchange/v1?id=183682](https://matlab.mathworks.com/open/fileexchange/v1?id=183682)
 
 ## Optimal control (no Python implementation)
 
