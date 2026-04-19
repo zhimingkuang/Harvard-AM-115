@@ -3,7 +3,7 @@
 fprintf('\nSUSHI_DP SUSHI RESTAURANT MODEL\n')
 close all
 %include the path to the dynamical programming library
-cepath='./CompEcon-master/';
+cepath='./CompEcon-master4students/';
 path([cepath 'CEtools;' cepath 'CEdemos'],path);
 
 % ENTER MODEL PARAMETERS
