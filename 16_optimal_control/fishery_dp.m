@@ -1,6 +1,9 @@
 % Fishery Model
   fprintf('\nSOLVING THE FISHERY PROBLEM\n')
- % close all  
+%include the path to the dynamical programming library
+  cepath='./CompEcon-master4students/';
+  path([cepath 'CEtools;' cepath 'CEdemos'],path);
+% close all  
   
 % ENTER MODEL PARAMETERS
   valueFishInLake =  0.75;                  % Value of fish in the lake
