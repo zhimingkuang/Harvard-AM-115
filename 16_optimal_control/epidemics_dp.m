@@ -1,5 +1,8 @@
 % EPIDEMICS Model
   fprintf('\nSOLVING THE EPIDEMICS PROBLEM WITH DYNAMIC PROGRAMMING\n')
+%include the path to the dynamical programming library
+  cepath='./CompEcon-master4students/';
+  path([cepath 'CEtools;' cepath 'CEdemos'],path);
   clear all  
   
 % ENTER MODEL PARAMETERS
