@@ -1,7 +1,7 @@
 % SUSHI_DP Sushi Restaurant Model
 % Discrete Dynamic Programming
 fprintf('\nSUSHI_DP SUSHI RESTAURANT MODEL\n')
-close all
+close all;clear all;
 %include the path to the dynamical programming library
 cepath='./CompEcon-master4students/';
 path([cepath 'CEtools;' cepath 'CEdemos'],path);
