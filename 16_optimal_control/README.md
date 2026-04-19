@@ -1,8 +1,11 @@
 # Harvard Applied Math/Engineering Science 115
 
-Open these files in Matlab Online (requires login) [https://matlab.mathworks.com/open/fileexchange/v1?id=183682](https://matlab.mathworks.com/open/fileexchange/v1?id=183682)
+Open these files in Matlab Online (requires login) [https://matlab.mathworks.com/](https://matlab.mathworks.com/)
 
-You will need to add the [CompEcon toolbox](https://pfackler.wordpress.ncsu.edu/compecon-download/) files to your directory. The instructions can be found in Canvas (Instructions on downloading and using the dynamic programming code by Fackler.pdf)
+At the Command Window, type:
+gitclone("https://github.com/zhimingkuang/Harvard-AM-115.git")
+
+This clones the AM115 repository and you will be set up to use the [CompEcon toolbox](https://pfackler.wordpress.ncsu.edu/compecon-download/). The instructions for downloading the toolbox onto your own computer (instead of the whole repository) can be found in Canvas (Instructions on downloading and using the dynamic programming code by Fackler.pdf)
 
 ## Optimal control (no Python implementation)
 
