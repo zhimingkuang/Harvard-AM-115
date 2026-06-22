@@ -2,7 +2,7 @@
 
 ## Models of an epidemic
 
-`model_epidemic_1d.ipynb`
+`individualAgentModel_epidemic1D.ipynb`
 
 This example models an epidemic with SIR individual agent model. Helper functions are included in the notebook.
 
